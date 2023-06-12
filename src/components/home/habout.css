@@ -1,0 +1,99 @@
+.gamesCard1{
+    padding: 50px 0;
+    background-image: url(../../img/rider.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+    padding-right: 50px;
+    color: #fff;
+    text-align: center;
+    
+}
+.gamesCard1 .items{
+    background-color: rgba(225, 225, 225, 0.2);
+    padding: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+.gamesCard1 .img{
+    width: 320px;
+    height: 200px;
+}
+.gamesCard1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gamesCard1 .text{
+    
+    text-align: center;
+}
+.gamesCard1 .text h1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.gamesCard1 .rate{
+    margin: 20px 0;
+    color: #1eb2a6;
+}
+.gamesCard1 .text .i{
+    font-size: 13px;
+    margin-right: 5px;
+}
+@media screen and (max-width: 768px) {
+    .gamesCard1{
+        background-position: center;
+        height: 100vh;
+    }
+    .gamesCard1 .items{
+        background-color: rgba(225, 225, 225, 0.2);
+        padding: 10px;
+        text-align: center;
+    }
+    .gamesCard1 .img{
+        width: 320px;
+        height: 200px;
+    }
+    .gamesCard1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+  }
+
+
+@media screen and (max-width: 600px) {
+    .gamesCard1{
+        background-position: center;
+        height: 230vh;
+    }
+    .gamesCard1 .items{
+        background-color: rgba(225, 225, 225, 0.2);
+        padding: 10px;
+        text-align: center;
+    }
+    .gamesCard1 .img{
+        width: 280px;
+        height: 200px;
+    }
+    .gamesCard1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .gamesCard1 .img{
+        width: 320px;
+        height: 200px;
+    }
+    .gamesCard1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+  }
